@@ -107,6 +107,7 @@ a {
     flex-direction: column;
     padding: 0 200px;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .information-content h2 {
@@ -120,6 +121,7 @@ a {
 .cards-container {
     display: flex;
     gap: 48px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -132,4 +134,51 @@ a {
     width: 150px;
     height: 150px;
     border-radius: 16px;
+}
+
+/* Quote Content */
+.quote-content {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 450px;
+}
+
+blockquote i {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+blockquote p {
+    text-align: right;
+}
+
+/* CTA Content */
+.cta-content {
+    margin: 100px 250px;
+    padding: 50px 150px;
+    display: flex;
+    background: #3882F6;
+    border-radius: 8px;
+}
+
+.cta-text {
+    flex: 1;
+}
+
+.cta-text {
+    color: #F9FAF8;
+}
+
+.cta-text p,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-border {
+    background: unset;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
 }
