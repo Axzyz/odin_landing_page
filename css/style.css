@@ -60,7 +60,7 @@ a {
     display: flex;
     padding: 100px 200px;
     background: #1F2937;
-    gap: 32px;
+    gap: 48px;
 }
 
 .info {
@@ -180,5 +180,15 @@ h3 {
 .btn-border {
     background: unset;
     border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    background: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
     color: #F9FAF8;
 }
